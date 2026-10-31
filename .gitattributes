@@ -1,0 +1,9 @@
+# Normalize text to LF on every platform: the tests compare documents and
+# tables line by line, and a CRLF checkout breaks them on Windows.
+* text=auto eol=lf
+*.png binary
+*.gif binary
+*.jpg binary
+*.ico binary
+*.woff binary
+*.woff2 binary
